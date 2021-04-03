@@ -102,3 +102,44 @@ a{
 html{
     scroll-behavior: smooth;
 }   
+.menu{
+    position:absolute;
+    background: white;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color:crimson;
+    text-shadow: 2px 2px gainsboro;
+    
+}
+#writings a{
+ text-shadow:none !important;
+    text-decoration:underline !important;
+    color:blue !important;
+    
+    
+    
+}
+#contacts{
+    background:firebrick;
+    
+    
+}
+.contact_1 a{
+    color:white;
+    text-shadow:none;
+    
+}
+.contact_1 h3{
+    display: inline;
+    
+}
+#contacts iframe{
+    width:100%;
+    
+}
